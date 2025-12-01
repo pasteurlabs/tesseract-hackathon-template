@@ -16,26 +16,16 @@ if ! command -v tesseract &> /dev/null; then
     exit 1
 fi
 
-# Build scaler
-echo "[1/2] Building scaler..."
-cd tesseracts/scaler
-tesseract build .
-cd ../..
-echo "✓ scaler built successfully"
-echo ""
 
-# Build dotproduct
-echo "[2/2] Building dotproduct..."
-cd tesseracts/dotproduct
-tesseract build .
-cd ../..
-echo "✓ dotproduct built successfully"
-echo ""
+for tess_dir in tesseracts/*/
+do
+    echo "Building ${tess_dir}"
+    tesseract build ${tess_dir}
+    echo "✓ ${tess_dir} built successfully"
+    echo ""
+done
+
 
 echo "========================================="
 echo "✓ All tesseracts built successfully!"
 echo "========================================="
-echo ""
-echo "Next steps:"
-echo "  1. Run 'python main.py' to see the demo pipeline"
-echo "  2. Or use the tesseracts in your Python code with tesseract_utils.py"

@@ -4,8 +4,6 @@ Dot Product Tesseract - Vector similarity computation
 This tesseract takes two vectors and computes:
 - Dot product between them
 - Cosine similarity (normalized dot product)
-
-Licensed under the Apache License, Version 2.0
 """
 
 from pydantic import BaseModel, Field, model_validator

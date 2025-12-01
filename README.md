@@ -78,10 +78,6 @@ Running `python main.py` demonstrates two paths:
 
 Apache License 2.0 - See [LICENSE](LICENSE) file for details.
 
-## Acknowledgments
-
-Built with [Tesseract](https://github.com/pasteurlabs/tesseract-core) by [Pasteur Labs](https://simulation.science).
-
 ---
 
 **Happy Hacking!** 🚀

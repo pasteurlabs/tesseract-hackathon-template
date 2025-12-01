@@ -4,8 +4,6 @@ Main Pipeline - Tesseract Hackathon Template
 Demonstrates two tesseracts working together:
 1. scaler - Scales input vectors
 2. dotproduct - Computes similarity between vectors
-
-Licensed under the Apache License, Version 2.0
 """
 
 import jax.numpy as jnp

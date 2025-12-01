@@ -16,7 +16,7 @@ if ! command -v tesseract &> /dev/null; then
     exit 1
 fi
 
-# Build scaler_jax
+# Build scaler
 echo "[1/2] Building scaler..."
 cd tesseracts/scaler
 tesseract build .
@@ -24,7 +24,7 @@ cd ../..
 echo "✓ scaler built successfully"
 echo ""
 
-# Build dotproduct_jax
+# Build dotproduct
 echo "[2/2] Building dotproduct..."
 cd tesseracts/dotproduct
 tesseract build .

@@ -1,6 +1,9 @@
 # Tesseract Hackathon Template
 
-A ready-to-use template for building projects with [tesseract-core](https://github.com/pasteurlabs/tesseract-core) and [tesseract-jax](https://github.com/pasteurlabs/tesseract-jax), featuring two interacting tesseracts that demonstrate vector scaling and similarity computation.
+A ready-to-use template for building projects with [tesseract-core](https://github.com/pasteurlabs/tesseract-core) and [tesseract-jax](https://github.com/pasteurlabs/tesseract-jax), featuring two interacting tesseracts that demonstrate vector scaling and similarity computation. Can be used as a starting point for participants in the [Tesseract Hackathon](link TODO).
+
+[!NOTE]
+Using this template is *not* required to participate in the Hackathon. You may use any tools at your disposal, including [Tesseract Core](https://github.com/pasteurlabs/tesseract-core), [Tesseract-JAX](https://github.com/pasteurlabs/tesseract-jax), and [Tesseract-Streamlit](https://github.com/pasteurlabs/tesseract-streamlit) --- or composing Tesseracts via `docker run` calls in a glorified shell script. Your imagination is the limit!
 
 ## Overview
 
@@ -77,7 +80,7 @@ Apache License 2.0 - See [LICENSE](LICENSE) file for details.
 
 ## Acknowledgments
 
-Built with [Tesseract](https://github.com/pasteurlabs) by Pasteur Labs.
+Built with [Tesseract](https://github.com/pasteurlabs/tesseract-core) by [Pasteur Labs](https://simulation.science).
 
 ---
 

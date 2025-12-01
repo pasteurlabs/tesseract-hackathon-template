@@ -77,7 +77,7 @@ def main() -> None:
     #     t.serve()
     #     t.teardown()
     # However we recommend using context manager for cleaner and safer approach
-    with Tesseract.from_image("scaler") as scaler, Tesseract.from_image("dotproduct") as dotproduct:
+    with Tesseract.from_image("scaler") as scaler, Tesseract.from_image("dotproduct_jax") as dotproduct:
 
         # Hardcoded test vectors
         vec_a = jnp.array([3.0, 4.0, 0.0])

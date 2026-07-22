@@ -1,3 +1,6 @@
+> [!WARNING]
+> Deprecated in favor of [cookiecutter-tesseract](https://github.com/pasteurlabs/cookiecutter-tesseract). This repository is archived and will not receive further updates. Please use the cookiecutter template for your Tesseract projects.
+
 # Tesseract Hackathon Template
 
 A ready-to-use template for building projects with [Tesseract Core](https://github.com/pasteurlabs/tesseract-core) and [Tesseract-JAX](https://github.com/pasteurlabs/tesseract-jax), featuring two interacting tesseracts that demonstrate vector scaling and similarity computation. Intended as a starting point for participants of the [Tesseract Hackathon](link TODO).
